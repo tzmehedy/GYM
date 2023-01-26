@@ -1,3 +1,27 @@
-h1{
-    color: red;
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.menu-bar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+.company-name{
+    padding-left:10px;
+    font-size: 20px;
+    color: rgb(196, 7, 7);
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none; 
+    padding: 30px;  
+}
+.menu li:hover{
+    color: blue;
 }
