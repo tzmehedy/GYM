@@ -85,3 +85,51 @@
     margin-top:-10px;
     transition: .8s;
 }
+.About-us-title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;   
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    
+}
+.about-us-img{
+    display: flex;
+    justify-content: space-evenly;
+    padding:35px;
+    border-top: 2px solid red; 
+}
+.img-style{
+    height: 100vh;
+    padding:10px;
+    transform: skewY(-15deg);
+}
+.about-us-text{
+    margin-left: 5px;
+    color: white;
+    border-top: 2px solid gray;
+    padding: 30px;
+}
+.about-us-text-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about-us-lorem{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-more-btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
